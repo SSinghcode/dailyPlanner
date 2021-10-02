@@ -1,6 +1,6 @@
-// Array of time
-let timePeriod=["9-AM","10-AM","11-AM","12-PM","1-PM","2-PM","3-PM","4-PM","5-PM"];
-let currentHour=parseInt(moment().format("hh"));
+let timePeriod=["9-AM","10-AM","11-AM","12-PM","1-PM","2-PM","3-PM","4-PM","5-PM",];
+//change date format
+let currentHour=parseInt(moment().format("H HH"));
 let currentDate = moment().format("ddd, MMM Do, YYYY");
  let datex=document.querySelector("#currentDay");
  datex.textContent=currentDate;
